@@ -1,0 +1,15 @@
+digraph "Proses Penyelesaian Proyek" {
+	node [fillcolor=lightblue shape=rectangle style="rounded, filled"]
+	rankdir=LR
+	1 [label="Pengumpulan Data"]
+	2 [label="Pra-pemrosesan Data"]
+	3 [label="EDA dan Analisis Fitur"]
+	4 [label="Pengembangan Model"]
+	5 [label="Evaluasi Kinerja"]
+	6 [label="Diskusi dan Kesimpulan"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+}
